@@ -1,0 +1,27 @@
+﻿
+.example-fill-remaining-space {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+.mat-sidenav-content {
+  min-height: 100vh;
+}
+mat-sidenav {
+  width: 200px;
+  height: 100vh;
+}
+.mat-toolbar {
+  background-color: transparent;
+}
+.logo {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  top: 3px;
+}
+.brand {
+  position: relative;
+  top: 3px;
+  left: 10px;
+}
