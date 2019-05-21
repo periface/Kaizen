@@ -9,7 +9,7 @@ import {
 } from '@angular/material';
 import { MatListModule } from '@angular/material/list';
 import { MatGridListModule } from '@angular/material/grid-list';
-import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatCardModule } from '@angular/material/card';
 @NgModule({
   imports: [
     MatButtonModule,
@@ -17,10 +17,10 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatToolbarModule,
     MatIconModule,
     MatMenuModule,
-    FlexLayoutModule,
     MatSidenavModule,
     MatListModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule
   ],
   exports: [
     MatButtonModule,
@@ -28,10 +28,10 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatToolbarModule,
     MatIconModule,
     MatMenuModule,
-    FlexLayoutModule,
     MatSidenavModule,
     MatListModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule
   ]
 })
 export class MaterialComponentsModule {}

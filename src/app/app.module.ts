@@ -13,7 +13,6 @@ export const APP_ID = 'my-app';
   ],
   exports: [AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+  bootstrap: [AppComponent]
 })
 export class AppModule {}

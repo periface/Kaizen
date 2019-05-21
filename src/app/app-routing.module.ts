@@ -4,8 +4,6 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { NotFoundComponent } from './not-found.component';
-import { MaterialComponentsModule } from './shared/material-components.module';
-
 const routes: Routes = [
   { path: '', loadChildren: './pages/welcome/welcome.module#WelcomeModule' },
   { path: '**', component: NotFoundComponent }
@@ -14,7 +12,6 @@ const routes: Routes = [
 @NgModule({
   declarations: [AppComponent, NotFoundComponent],
   imports: [
-    MaterialComponentsModule,
     LayoutModule,
     RouterModule.forRoot(routes, {
       initialNavigation: true

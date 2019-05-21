@@ -21,3 +21,38 @@
     color: white;
   }
 }
+.section-container-left {
+  min-height: 200px;
+}
+.section-container-right {
+  min-height: 200px;
+}
+.section {
+  width: 100%;
+  margin: auto;
+  background: black;
+}
+.programs-title {
+  background: white;
+  padding: 5px;
+  position: relative;
+  top: -50px;
+  h3 {
+    font-size: 2.3em;
+    font-weight: bold;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+  span {
+  }
+}
+.card-container {
+  background: white;
+}
+.example-card {
+  img {
+    max-height: 400px;
+    min-height: 400px;
+    overflow: hidden;
+  }
+}
