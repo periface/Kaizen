@@ -53,6 +53,19 @@
     min-height: 400px;
   }
 }
+.right {
+  .section-title {
+    top: 30% !important;
+    left: 70% !important;
+  }
+  .section-img {
+    img {
+      width: 50%!important;
+    }
+    top: 50% !important;
+    left: 35% !important;
+  }
+}
 .background-s-1 {
   background: linear-gradient(#df000077, #00000017),
     url(/assets/img/haidong.jpg);
